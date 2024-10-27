@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="icon" type="image/png" href="assets\sidlogoico.ico" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets\sidlogoico32.ico" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <title>SID.WEB</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="menu-container">
+            <div class="menu-icon" onclick="toggleMenu()">&#9776; 
+                
+                <span class="menu-text">SID.</span> 
+            
+        </div>
+            
+        </div>
+        <ul class="nav-links">
+            <span class="close-btn" onclick="toggleMenu()">×</span>
+            <span class="menu-text2"><li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#photos">Photos / Designing</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#device">My Devices</a></li></span>
+            <img src="assets\gmail.png" alt="Description of the image" width="200" height="150" class="emailpic1">
+            
+        </ul>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <p class="t1">Hello, it's</p>
+      <h class="name">Sri Datta Sidhardha</h>
+      <p class="abtme">And I'm a <span id="role">Editor</span><span class="cursor">|</span></span></p>
+      <p class="t2">I'm a computer science student and a selftaught developer with skills in programming and designing. I have a strong passion on Robotics, AI & Technology.</br><br>Student at pydah college of engineering<br> </p>
+        
+      <div class="social-media">
+        <a href="https://siddu.start.page/"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://siddu.start.page/"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://siddu.start.page/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://siddu.start.page/"><i class='bx bxl-linkedin' ></i></a>
+          </div>
+<div class="rectangle">
+    <div class="rectangle2">
+        <img src="assets\sidlogo.png" alt="Description of the image" width="200" height="150" class="abtpng">
+      </div>
+  </div>
+ </section>
+
+<!-- pop up about me -->
+ <div class="rectangle3">
+    <h1 class="about2">About <span class="highlight">Me !</span></h1>
+    <h1 class="about3">Hello! I'm a passionate and versatile creator with expertise in design, UI/UX, programming, and development. strong intrest in robotics too. blending creativity with functionality. My creativity spans from editing to programming, and I thrive on learning new technologies and enhancing my skills every day. Driven by curiosity and innovation.</h1>
+    
+        <!-- Know More Button -->
+        <button class="know-more-button" onclick="openModal()">Know More</button>
+
+        <!-- Modal Structure -->
+        <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <button class="close-button" onclick="closeModal()">X</button>
+                <h2 class="pophed" >More Information</h2>
+               
+                <img src="assets\im siddu.png" alt="Description of the image" width="200" height="150"  class="poppng1">
+                <img src="assets\ksds (1).png" alt="Description of the image" width="250" height="130" class="poppng2">
+                <img src="assets\popallnames.png" alt="Description of the image" width="250" height="130" class="poppng3">
+                <p>Tap any where to close </p>
+            </div>
+        </div>
+        <img src="assets\abtall.png" alt="Description of the image" width="250" height="130" class="abtall">
+</div>
+
+
+<div class="rectangle4">
+    
+    <div class="services-container">
+        <h1 class="myintrest"><span class="highlight">My</span> Intrests</h1>
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            
+            <h3>Programming</h3>
+            <p>A solid foundation in UI/UX and web development. I love combining creativity with technical skills to bring ideas to life. Growing on to c,c++,java,python,sql many soon</p>
+          
+            </p>
+            
+        </div>
+        <div class="services-box">
+            <i class='bx bx-game' ></i>
+            <h3>Gaming</h3>
+            <p>I'm not just a gamer; I also dive into game development and 3D modeling, exploring the creative side of gaming from the ground up.</p>
+           
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-edit-alt' ></i>
+            <h3>Editing</h3>
+            <p>I’m a solid editor with a good sense for details always learning and growing my skills along the way </p>
+           
+        </div>
+    
+    </div>    
+   
+
+    <h2 class="latprj">Latest <span>Project</span></h2>
+</div>
+
+
+<div class="rectangle5">
+   
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="https://i.ibb.co/7nW9tQZ/1200x630wa-copy.png" alt="Project 1" />
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Project 1</p>
+                    <a href="https://siddu-k.github.io/Calculator-page1/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://i.ibb.co/gvF4TyY/8kafi6bl.png" alt="8kafi6bl" alt="Project 2" />
+                <div class="portfolio-layer">
+                    <h4>Documentation</h4>
+                    <p>Project 2</p>
+                    <a href="https://siddu-k.github.io/Build-a-Technical-Documentation-Page/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://i.ibb.co/2PVVCYr/mfs4j97q.png" alt="mfs4j97q"  alt="Project 2" />
+                <div class="portfolio-layer">
+                    <h4>Flower animation</h4>
+                    <p>Project 2</p>
+                    <a href="https://siddu-k.github.io/Flower-animation-/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <!-- Add more portfolio-box items here -->
+        </div>
+    </section>
+
+    
+</div>
+  
+   
+   
+    <script src="script.js"></script>
+    <a href="index.html" class="back-link">^</a>
+  
+</body>
+
+</html>
