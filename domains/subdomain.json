@@ -1,1 +1,11 @@
-
+{
+    "description": "Hosting my portfolio page by using this domain ",
+    "repo": "https://github.com/siddu-k/sid.web",
+    "owner": {
+        "username": "siddu-k",
+        "email": "sridatta.k99@gmail.com"
+    },
+    "record": {
+        "CNAME": "siddu-k.github.io"
+    }
+}
